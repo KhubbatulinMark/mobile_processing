@@ -1,0 +1,5 @@
+def opencvsdk='/home/markh/Desktop/OpenCV-android-sdk'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/sdk')
+include ':app'
+rootProject.name = "Homework-1"
